@@ -1,0 +1,28 @@
+.notice-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.notice-actions button {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.notice-actions button:hover {
+  opacity: 0.8;
+}
+
+.notice-actions button:nth-child(1) {
+  background-color: #2563eb;
+  color: white;
+}
+
+.notice-actions button:nth-child(2) {
+  background-color: #dc2626;
+  color: white;
+}

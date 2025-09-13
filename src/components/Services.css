@@ -1,0 +1,28 @@
+/* Services.css placeholder */
+.services { margin-top: 18px; padding:16px; }
+.services h3 { margin:0 0 12px 0; font-size:18px; }
+
+.services-grid {
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:12px;
+}
+
+.service-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(255,255,255,0.98));
+  border-radius:12px;
+  padding:12px;
+  display:flex;
+  gap:5px;
+  align-items:center;
+  box-shadow: 0 8px 22px rgba(17,24,39,0.04);
+}
+
+.service-icon {
+  width:56px; height:56px; border-radius:12px; display:flex; align-items:center; justify-content:center;
+  background: linear-gradient(135deg,#7b2ff7, #f107a3);
+  color:white; font-size:24px; box-shadow: 0 8px 18px rgba(123,47,247,0.12);
+}
+
+.service-title { font-weight:700; }
+.service-desc { font-size:12px; color:var(--muted); margin-top:4px; }

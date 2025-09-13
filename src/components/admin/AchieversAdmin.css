@@ -1,0 +1,119 @@
+.villagers-admin {
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+.villagers-admin h3 {
+  text-align: center;
+  color: #1e40af;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.villager-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.villager-form input,
+.villager-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.villager-form textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.villager-form button {
+  padding: 10px 16px;
+  background: #1e40af;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.villager-form button:hover {
+  background: #4338ca;
+}
+
+.villagers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.villager-card {
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+.villager-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.villager-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  color: #1e293b;
+}
+
+.villager-card p {
+  font-size: 0.95rem;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.villager-actions {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.villager-actions button {
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.villager-actions button:first-child {
+  background: #facc15;
+  color: #1e293b;
+}
+
+.villager-actions button:first-child:hover {
+  background: #eab308;
+}
+
+.villager-actions button:last-child {
+  background: #ef4444;
+  color: white;
+}
+
+.villager-actions button:last-child:hover {
+  background: #dc2626;
+}

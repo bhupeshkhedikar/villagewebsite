@@ -1,0 +1,73 @@
+.problem-admin-panel {
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.problem-admin-panel h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #b91c1c;
+}
+
+.problem-admin-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.problem-admin-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.problem-admin-header {
+  margin-bottom: 10px;
+}
+
+.problem-admin-header b {
+  display: block;
+  font-size: 1.1rem;
+  color: #111827;
+}
+
+.problem-admin-header small {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.problem-admin-media {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.problem-admin-media img,
+.problem-admin-media video {
+  width: 100%;
+  max-height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.problem-delete-btn {
+  padding: 8px 12px;
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.problem-delete-btn:hover {
+  background: #dc2626;
+}

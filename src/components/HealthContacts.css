@@ -1,0 +1,29 @@
+/* HealthContacts.css placeholder */
+.health { margin-top:18px; padding:16px; }
+.health h3 { margin:0 0 12px 0; font-size:18px; }
+
+.health-grid {
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:5px;
+}
+
+.health-card {
+  background:white;
+  border-radius:12px;
+  padding:5px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  box-shadow: var(--shadow);
+}
+
+.health-icon {
+  font-size:28px;
+  background: #f3f4f6;
+  padding:8px;
+  border-radius:10px;
+}
+
+.health-title { font-weight:600; }
+.health-phone { font-size:13px; color:var(--muted); }

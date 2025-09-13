@@ -1,0 +1,28 @@
+/* MandiPrices.css placeholder */
+.mandi { margin-top:18px; padding:16px; }
+.mandi h3 { margin:0 0 12px 0; font-size:18px; }
+
+.mandi-table {
+  width:100%;
+  border-collapse: collapse;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow: 0 8px 22px rgba(17,24,39,0.05);
+}
+
+.mandi-table th {
+  background: var(--gradient-1);
+  color:white;
+  text-align:left;
+  padding:10px;
+  font-weight:600;
+}
+
+.mandi-table td {
+  padding:10px;
+  border-bottom:1px solid #f0f0f0;
+}
+
+.mandi-table tr:nth-child(even) {
+  background:#fafafa;
+}

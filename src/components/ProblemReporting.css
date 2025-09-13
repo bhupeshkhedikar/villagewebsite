@@ -1,0 +1,66 @@
+/* ProblemReporting.css placeholder */
+.problem { margin-top:18px; padding:16px; }
+.problem h3 { margin:0 0 12px 0; font-size:18px; }
+
+.problem-form {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-bottom:14px;
+}
+
+.problem-form input {
+  padding:8px 10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+.problem-form button {
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  background: var(--gradient-1);
+  color:white;
+  cursor:pointer;
+}
+
+.problem-list { display:flex; flex-direction:column; gap:12px; }
+.problem-item {
+  display:flex;
+  gap:12px;
+  padding:10px;
+  border-radius:12px;
+  background:#fafafa;
+  box-shadow: var(--shadow);
+}
+
+.problem-item img {
+  width:70px;
+  height:70px;
+  object-fit:cover;
+  border-radius:10px;
+}
+/* Upload progress bar */
+.upload-progress {
+  margin: 10px 0;
+  background: #f1f1f1;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  height: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.upload-bar {
+  background: linear-gradient(90deg, #4caf50, #81c784);
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.upload-progress span {
+  position: absolute;
+  right: 8px;
+  font-size: 12px;
+  color: #333;
+}

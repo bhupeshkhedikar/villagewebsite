@@ -1,0 +1,64 @@
+/* Navbar.css placeholder */
+.nav-root {
+  background: var(--gradient-1);
+  padding: 18px 12px;
+  color: white;
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  box-shadow: 0 8px 30px rgba(124,58,237,0.12);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.nav-inner {
+  max-width:980px;
+  margin: 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.nav-back {
+  background: rgba(255,255,255,0.16);
+  border: none;
+  padding:8px 10px;
+  border-radius: 10px;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.nav-title {
+  font-size:20px;
+  font-weight:700;
+  letter-spacing:0.2px;
+}
+
+.icon-btn{
+  background: rgba(255,255,255,0.12);
+  border:none;
+  color:white;
+  padding:8px 10px;
+  border-radius:10px;
+  cursor:pointer;
+}
+.nav-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center title and subtitle */
+}
+
+.nav-title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.nav-subtitle {
+  font-size: 12px;  /* smaller font for subtitle */
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 2px;
+}
+

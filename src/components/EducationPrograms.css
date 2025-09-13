@@ -1,0 +1,28 @@
+/* EducationPrograms.css placeholder */
+.education { margin-top:18px; padding:16px; }
+.education h3 { margin:0 0 12px 0; font-size:18px; }
+
+.edu-list {
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.edu-card {
+  display:flex;
+  gap:12px;
+  padding:12px;
+  border-radius:12px;
+  background: linear-gradient(90deg,#fff,#fef7ff);
+  box-shadow: var(--shadow);
+}
+
+.edu-icon {
+  font-size:28px;
+  padding:10px;
+  border-radius:10px;
+  background:#f3f4f6;
+}
+
+.edu-title { font-weight:600; }
+.edu-desc { font-size:13px; color:var(--muted); }

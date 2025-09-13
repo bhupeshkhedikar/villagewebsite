@@ -1,0 +1,184 @@
+/* ProblemFeed.css */
+
+/* Feed Container */
+.village-feed {
+  padding: 16px;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  margin: 16px auto;
+  max-width: 700px;
+  width: 100%;
+}
+
+/* Section Title */
+.village-feed h3 {
+  text-align: center;
+  color: #1d4ed8;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Problem Card */
+.village-problem {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 18px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.village-problem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+/* Problem Header */
+.village-problem-header b {
+  display: block;
+  font-size: 1.1rem;
+  color: #111827;
+  margin-bottom: 4px;
+}
+.village-problem-header small {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+/* Media */
+.village-media {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+.village-media img,
+.village-media video {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #f1f5f9;
+}
+
+/* Reactions */
+.village-reactions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.village-reactions button {
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  padding: 6px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+.village-reactions button:hover {
+  background: #e0e7ff;
+  border-color: #6366f1;
+}
+
+/* Comments Section */
+.village-comments {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid #e5e7eb;
+}
+.village-comments h4 {
+  font-size: 1rem;
+  color: #374151;
+  margin-bottom: 8px;
+}
+
+/* Comment Item */
+.village-comment {
+  background: #f9fafb;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+.village-comment span {
+  display: block;
+  color: #1f2937;
+}
+.village-comment small {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+/* Comment Box */
+.village-comment-box {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+}
+.village-comment-box input {
+  flex: 1;
+  width: 80%;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+.village-comment-box button {
+  background: #2563eb;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.village-comment-box button:hover {
+  background: #1d4ed8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .village-feed {
+    padding: 12px;
+  }
+  .village-media {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* Image zoom effect */
+.zoomable-img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.zoomable-img:hover {
+  transform: scale(1.02);
+}
+
+/* Overlay for zoom */
+.zoom-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  cursor: zoom-out;
+}
+
+.zoomed-img {
+  max-width: 95%;
+  max-height: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+}

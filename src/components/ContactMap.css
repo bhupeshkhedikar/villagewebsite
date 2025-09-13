@@ -1,0 +1,7 @@
+/* ContactMap.css placeholder */
+.contact-map { margin-top:18px; padding:16px; }
+.contact-map h3 { margin:0 0 12px 0; font-size:18px; }
+
+.map-box { border-radius:12px; overflow:hidden; box-shadow: var(--shadow); margin-bottom:12px; }
+
+.contact-info p { margin:4px 0; font-size:14px; }

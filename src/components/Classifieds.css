@@ -1,0 +1,29 @@
+/* Classifieds.css placeholder */
+.classifieds { margin-top:18px; padding:16px; }
+.classifieds h3 { margin:0 0 12px 0; font-size:18px; }
+
+.class-form { display:flex; flex-direction:column; gap:8px; margin-bottom:12px; }
+.class-form input {
+  padding:8px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+.class-form button {
+  background: var(--gradient-1);
+  color:white;
+  padding:8px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.class-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; }
+.class-list li {
+  background:#fafafa;
+  padding:8px 10px;
+  border-radius:8px;
+  box-shadow: var(--shadow);
+  display:flex;
+  justify-content:space-between;
+}
+.class-list small { color:var(--muted); font-size:12px; }

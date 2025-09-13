@@ -1,0 +1,104 @@
+/* Admin Panel Wrapper */
+.classifieds-admin-panel {
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Title */
+.classifieds-admin-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* List Container */
+.classifieds-admin-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Each Ad Item */
+.classifieds-admin-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.classifieds-admin-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section */
+.classifieds-admin-info {
+  flex: 1;
+}
+
+.classifieds-admin-info b {
+  font-size: 1.1rem;
+  color: #1a202c;
+}
+
+.classifieds-admin-info p {
+  margin: 5px 0;
+  color: #374151;
+}
+
+.classifieds-admin-date {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+/* Media Section */
+.classifieds-admin-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.classifieds-admin-media img,
+.classifieds-admin-media video {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.classifieds-admin-media img:hover,
+.classifieds-admin-media video:hover {
+  transform: scale(1.05);
+}
+
+/* Delete Button */
+.classifieds-admin-delete-btn {
+  background: #ef4444;
+  border: none;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.classifieds-admin-delete-btn:hover {
+  background: #dc2626;
+}

@@ -1,0 +1,38 @@
+/* NoticeBoard.css placeholder */
+.notice { margin-top:18px; padding:16px; }
+.notice h3 { margin:0 0 12px 0; font-size:18px; }
+
+.notice-input {
+  display:flex;
+  gap:8px;
+  margin-bottom:12px;
+}
+
+.notice-input input {
+  flex:1;
+  padding:8px 10px;
+  border:1px solid #ddd;
+  border-radius:8px;
+}
+
+.notice-input button {
+  padding:8px 12px;
+  background: var(--gradient-1);
+  color:white;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.notice-list { list-style:none; padding:0; margin:0; }
+.notice-list li {
+  background:#fafafa;
+  padding:8px 10px;
+  border-radius:8px;
+  margin-bottom:8px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:0 2px 6px rgba(0,0,0,0.04);
+}
+.notice-list small { color:var(--muted); font-size:11px; }

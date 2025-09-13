@@ -1,0 +1,178 @@
+/* Wrapper */
+.classifieds-feed {
+  padding: 16px;
+  background: #f3f4f6;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Title */
+.classifieds-feed h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+/* Feed List */
+.classifieds-feed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each Post Card */
+.classifieds-feed-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.classifieds-feed-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Post Header */
+.classifieds-feed-header b {
+  font-size: 1.1rem;
+  color: #111827;
+}
+
+.classifieds-feed-header small {
+  font-size: 0.8rem;
+  color: #6b7280;
+  display: block;
+  margin-top: 4px;
+}
+
+/* Media Section */
+.classifieds-feed-media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.classifieds-feed-media img,
+.classifieds-feed-media video {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.classifieds-feed-media img:hover,
+.classifieds-feed-media video:hover {
+  transform: scale(1.05);
+}
+
+/* Reactions & Comments */
+.classifieds-feed-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.classifieds-feed-actions button {
+  background: #f3f4f6;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s ease;
+}
+
+.classifieds-feed-actions button:hover {
+  background: #e5e7eb;
+}
+
+/* Comments Section */
+.classifieds-feed-comments {
+  margin-top: 10px;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 10px;
+}
+
+.classifieds-feed-comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.classifieds-feed-comment small {
+  font-size: 0.7rem;
+  color: #6b7280;
+}
+
+/* Comment Input */
+.classifieds-feed-comment-box {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.classifieds-feed-comment-box input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  width: 80%;
+}
+
+.classifieds-feed-comment-box button {
+  padding: 6px 12px;
+  border: none;
+  background: #3b82f6;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.classifieds-feed-comment-box button:hover {
+  background: #2563eb;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .classifieds-feed-media img,
+  .classifieds-feed-media video {
+    width: 80%;
+    height: 60%;
+    margin-bottom: 10px;
+  }
+}
+/* Zoom Overlay */
+.classifieds-feed-zoom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  cursor: zoom-out;
+}
+
+.classifieds-feed-zoom img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 12px;
+}

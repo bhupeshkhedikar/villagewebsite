@@ -1,0 +1,31 @@
+/* Leadership.css placeholder */
+.leadership { margin-top:18px; padding:16px; }
+.leadership h3 { margin:0 0 12px 0; font-size:18px; }
+
+.leader-grid {
+  display:flex;
+  gap:12px;
+  overflow-x:auto;
+  padding-bottom:6px;
+}
+
+.leader-card {
+  display:flex;
+  gap:12px;
+  align-items:center;
+  min-width:260px;
+  padding:10px;
+  border-radius:14px;
+  background: linear-gradient(90deg,#f0faff, #fff6f8);
+  box-shadow: 0 12px 30px rgba(17,24,39,0.04);
+}
+
+.leader-card img {
+  width:72px; height:72px; border-radius:12px; object-fit:cover;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+.leader-info { flex:1; }
+.leader-name { font-weight:700; }
+.leader-role { font-size:13px; color:var(--muted); margin-top:4px; }
+.leader-phone { margin-top:8px; font-size:13px; color:#4b5563; }

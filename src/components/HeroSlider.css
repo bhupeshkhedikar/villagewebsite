@@ -1,0 +1,72 @@
+.hero-wrap {
+  padding: 18px 12px 0 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  width: 360px; /* phone-style layout */
+  position: relative;
+}
+
+.hero-slide {
+  display: none;
+}
+.hero-slide.active {
+  display: block;
+}
+
+/* Updated to avoid image cropping */
+.hero-bg {
+  width: 100%;
+  height: auto; 
+  border-radius: 18px 18px 0 0;
+  background-size: contain; /* ensures full image is visible */
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: saturate(1.05) contrast(1.02);
+  aspect-ratio: 16 / 9; /* keeps consistent height */
+}
+
+.hero-card {
+  background: #fff;
+  border-radius: 0 0 18px 18px;
+  padding: 14px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.hero-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.hero-subtitle {
+  font-size: 14px;
+  height: 40px;
+  overflow: scroll;
+  color: var(--muted);
+}
+
+.hero-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #4f46e5;
+  box-shadow: 0 0 6px rgba(79, 70, 229, 0.6);
+}

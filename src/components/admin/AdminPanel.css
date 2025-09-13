@@ -1,0 +1,46 @@
+.admin-panel-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.admin-panel-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1e40af;
+}
+
+/* Tabs */
+.admin-tabs-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.admin-tab-item {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #f1f5f9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin-tab-item:hover {
+  background: #e2e8f0;
+}
+
+.admin-tab-item.active {
+  background: #1e40af;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+/* Content */
+.admin-tab-content {
+  margin-top: 20px;
+}
