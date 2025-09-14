@@ -10,7 +10,7 @@ const HeroSlider = () => {
 
   // Fetch slides from Firestore
   useEffect(() => {
-    const q = query(collection(db, "sliders"), orderBy("createdAt", "desc"));
+    const q = query(collection(db, "sliders"), orderBy("createdAt", "asc"));
     const unsubscribe = onSnapshot(q, (snapshot) => {
       const data = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
       setSlides(data);
