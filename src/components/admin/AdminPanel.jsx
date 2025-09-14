@@ -11,6 +11,7 @@ import NoticeBoardAdmin from "./NoticeBoardAdmin";
 import SliderUpload from "./SliderUpload";
 import ContactsDirectoryAdmin from "./ContactsDirectoryAdmin";
 import "./AdminPanel.css";
+import SliderManager from "./SliderManager";
 
 const adminTabs = [
     { id: "problemReports", label: "तक्रारी", component: <ProblemAdminPanel /> },
@@ -21,7 +22,7 @@ const adminTabs = [
     { id: "achievers", label: "सन्मानित", component: <AchieversAdmin /> },
     { id: "leadership", label: "पंचायती सदस्य", component: <LeadershipAdmin /> },
     { id: "noticeBoard", label: "सूचना", component: <NoticeBoardAdmin /> },
-    { id: "sliderUpload", label: "स्लायडर", component: <SliderUpload /> },
+    { id: "sliderUpload", label: "स्लायडर", component: <SliderManager /> },
     { id: "ContactsDirectoryAdmin", label: "संपर्क", component: <ContactsDirectoryAdmin /> },
 ];
 
