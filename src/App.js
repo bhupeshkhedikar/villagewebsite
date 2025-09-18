@@ -10,7 +10,6 @@ import MandiPrices from "./components/MandiPrices";
 import HealthContacts from "./components/HealthContacts";
 import EducationPrograms from "./components/EducationPrograms";
 import NoticeBoard from "./components/NoticeBoard";
-import Events from "./components/UserEventsFeed";
 import ProblemReporting from "./components/ProblemReporting";
 import Classifieds from "./components/Classifieds";
 import ContactsDirectory from "./components/ContactsDirectory";
@@ -21,6 +20,7 @@ import Achievers from "./components/Achievers";
 
 // Admin Components
 import AdminPanel from "./components/admin/AdminPanel";
+import Events from "./components/Events";
 
 function App() {
   return (
@@ -38,6 +38,7 @@ function App() {
               <Leadership />
               <Achievers />
               <AboutVillage />
+              <Events />
               <Services />
               <HealthContacts />
               <EducationPrograms />

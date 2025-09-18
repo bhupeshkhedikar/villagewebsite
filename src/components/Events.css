@@ -1,0 +1,31 @@
+.events { margin-top:18px; padding:16px; }
+.events h3 { margin:0 0 12px 0; font-size:18px; }
+
+.event-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:10px; }
+
+.event-item {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  background:#fff;
+  padding:10px;
+  border-radius:12px;
+  box-shadow: var(--shadow);
+}
+
+.event-date {
+  min-width:64px;
+  height:64px;
+  border-radius:12px;
+  background: var(--gradient-1);
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  font-size:14px;
+  text-align:center;
+}
+
+.event-name { font-weight:600; }
+.event-place { font-size:13px; color:var(--muted); }

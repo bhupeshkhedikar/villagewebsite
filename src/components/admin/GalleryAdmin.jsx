@@ -69,7 +69,7 @@ const GalleryAdmin = () => {
       <div className="gallery-admin-form">
         <input
           type="file"
-          accept="image/*"
+          accept="image/*,image/gif"
           multiple
           onChange={(e) => setFiles(Array.from(e.target.files))}
         />
