@@ -11,9 +11,9 @@ const tabs = [
   { id: "home", label: "मुखपृष्ठ", icon: "🏠", gradient: "linear-gradient(135deg, #4f46e5, #9333ea)" },
   { id: "services", label: "तक्रारी", icon: "🛠️", gradient: "linear-gradient(135deg, #16a34a, #22c55e)" },
   { id: "classifieds", label: "जाहिराती", icon: "📢", gradient: "linear-gradient(135deg, #f43f5e, #dc2626)" },
-  { id: "birthday", label: "वाढदिवस बॅनर", icon: "🎉", gradient: "linear-gradient(135deg, #f59e0b, #f97316)" },
   { id: "events", label: "कार्यक्रम", icon: "📅", gradient: "linear-gradient(135deg, #2563eb, #3b82f6)" },
-  { id: "upload", label: "छायाचित्र अपलोड", icon: "📤", gradient: "linear-gradient(135deg, #dc2626, #f43f5e)" }
+    { id: "birthday", label: "वाढदिवस", icon: "🎉", gradient: "linear-gradient(135deg, #f59e0b, #f97316)" },
+  { id: "upload", label: "छायाचित्र", icon: "📤", gradient: "linear-gradient(135deg, #dc2626, #f43f5e)" }
 ];
 
 const TabsBar = () => {
