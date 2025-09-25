@@ -21,6 +21,7 @@ import Achievers from "./components/Achievers";
 // Admin Components
 import AdminPanel from "./components/admin/AdminPanel";
 import Events from "./components/Events";
+import BirthdayBanner from "./components/BirthdayBanner";
 
 function App() {
   return (
